@@ -1,5 +1,10 @@
 quarkus:
+  native:
+    resources:
+      includes:
+        - '*.wasm'
   wasm:
     filter-chain:
       plugins:
-        - name: hello-headers-2
+        - name: hello-headers
+          type: filesystem
