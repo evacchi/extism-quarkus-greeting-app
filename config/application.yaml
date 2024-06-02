@@ -2,5 +2,7 @@ quarkus:
   wasm:
     filter-chain:
       plugins:
-        - name: hello-headers
+        - name: hello-world
+          type: filesystem
+        - name: fortunes
           type: filesystem
