@@ -1,8 +1,4 @@
 quarkus:
-  native:
-    resources:
-      includes:
-        - '*.wasm'
   wasm:
     filter-chain:
       plugins:

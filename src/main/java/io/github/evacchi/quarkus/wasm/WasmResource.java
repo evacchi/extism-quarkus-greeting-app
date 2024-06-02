@@ -17,14 +17,12 @@
 package io.github.evacchi.quarkus.wasm;
 
 import io.quarkus.logging.Log;
-import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.enterprise.context.RequestScoped;
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;
 import jakarta.ws.rs.core.HttpHeaders;
 
 import java.util.List;
-import java.util.Map;
 
 @Path("/wasm")
 @RequestScoped
