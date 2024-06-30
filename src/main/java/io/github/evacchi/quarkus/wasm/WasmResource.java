@@ -35,7 +35,7 @@ public class WasmResource {
         }
 
         if (List.of("Hello World!").equals(h.getRequestHeaders().get("X-Wasm-Plugin"))) {
-            return "Hello wasm";
+            return "Hello Dylibso";
         }
         return "No Wasm for you!";
     }
