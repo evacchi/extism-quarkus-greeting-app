@@ -2,8 +2,8 @@ quarkus:
   wasm:
     filter-chain:
       plugins:
-#        - name: hello-world
-#          type: filesystem
+        - name: hello-world
+          type: filesystem
         - name: basic-auth
           type: filesystem
         - name: fortunes

@@ -30,6 +30,7 @@ public class WasmResource {
 
     @GET
     public String hello(HttpHeaders h) {
+        Log.info(System.getProperty("user.dir"));
         for (var e : h.getRequestHeaders().entrySet()) {
             Log.infof("%s: %s", e.getKey(), e.getValue());
         }
