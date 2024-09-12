@@ -5,6 +5,8 @@ This is a demo for the [Quarkus Wasm Extension][quarkus-wasm-extension]. The Qua
 
 [quarkus-wasm-extension]: https://github.com/evacchi/quarkus-wasm-extension
 
+[![Quarkus Demo ](https://cdn.loom.com/sessions/thumbnails/40043d98406940739e5e2bf049aec0e8-b551743d1bab726c-full-play.gif)](https://www.loom.com/share/40043d98406940739e5e2bf049aec0e8?sid=7649f41a-3d80-41fe-bd5a-a9b8f5450e8f)
+
 ## Prepare for installation
 
 This example relies on bleeding-edge version of [Chicory][chicory] and the [Extism Chicory SDK][chicory-sdk]
